@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<title>Karoussa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index_files/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif
+  }
+
+  body,
+  html {
+    height: 100%;
+    line-height: 1.8;
+  }
+
+  /* Full height image header */
+
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/4.jpg");
+    min-height: 100%;
+  }
+
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+</style>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+       
+      <!-- Right-sided navbar links -->
+      <div class="w3-left w3-hide-small">
+        <a href="index.htm" class="fa fa-home w3-bar-item w3-button"> HOME</a>
+        
+    </div>
+      </div>
+
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+ 
+ 
+ <!-- Pricing Section -->
+ <div class="w3-container w3-center" style="padding:128px 16px" id="pricing">
+    <h3>Renting</h3>
+    <p class="w3-large">What do you want ?</p>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Rent your car</li>
+          <li class="w3-padding-16">
+            <form>
+              First name:
+              <br>
+              <input type="text" name="firstname"><br>
+              <br> Last name:
+              <br>
+              <input type="text" name="lastname"><br><br>
+            </form>
+           
+            <form>
+              adress:<br>
+              <input type="text" name="adress"><br><br>
+              Age<br>
+              <input type="integer" name="age"><br><br>
+              id number<br>
+              <input type="integer" name="idNumber">
+            </form></li>
+          <li class="w3-padding-16">
+            <form>
+              Car type<br>
+              <input type="text" name="car"><br><br>
+              car  matriculation<br>
+              <input type="text" name="car year"><br>
+              <br>
+               Car situation<br>
+              <input type="text" name="car year"><br>
+            </form></li>
+          <li class="w3-padding-16">
+             Number of day you want to rent<br>
+            <input type="integer" name="numberOFday"><br>
+            <br>
+            Price per 8 hours<br>
+            <input type="text" name="price"><br>
+          </li>
+ 
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large"><a href="dashbord1/table.html">Validat</a></button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third">
+        <ul class="w3-ul w3-white ">
+          <li class=" w3-xlarge w3-padding-48">OR</li>
+          
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Rent a car</li>
+          <li class="w3-padding-16">
+            <form>
+              First name:
+              <br>
+              <input type="text" name="firstname"><br>
+              <br> Last name:
+              <br>
+              <input type="text" name="lastname"><br><br>
+            </form>
+           
+            <form>
+              adress<br>
+              <input type="text" name="adress"><br><br>
+              Age<br>
+              <input type="integer" name="age">
+              <br><br>
+              id number<br>
+              <input type="integer" name="idNumber"><br>
+            </form></li>
+          <li class="w3-padding-16">
+            <form>
+              Car type<br>
+              <input type="text" name="car"><br><br>
+               
+            </form></li>
+          <li class="w3-padding-16">
+               Agency Name<br>
+              <input type="text" name="agency"><br><br>
+              <br>
+             Number of day you want to rent
+            <input type="integer" name="numberOFday"><br>
+            <br>
+            
+          </li>
+          <br><br><br>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large"><a href="dashbord1/table.html">Validat</a></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
